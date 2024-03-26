@@ -1,0 +1,31 @@
+{
+    "data": [        
+        {
+            "nome": "Salário"
+        },
+        {
+            "nome": "Freelance"
+        },
+        {
+            "nome": "Bônus"
+        },
+        {
+            "nome": "Remoto"
+        },
+        {
+            "nome": "Escolar"
+        },
+        {
+            "nome": "Compras"
+        },
+        {
+            "nome": "Mercado"
+        },
+        {            
+            "nome": "Farmácia"
+        },
+        {
+            "nome": "Hortfrut"
+        }
+    ]
+}

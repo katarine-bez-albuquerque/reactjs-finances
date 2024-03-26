@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    border: 0 none;
+    outline: 0 none;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.15rem;
+    color: rgba(0,0,0,0.7);
+}
+
+button,
+input[type="button"],
+input[type="submit"] {    
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #008080;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0.5rem 0;
+}
+
+h1 {    
+    font-size: 2.3rem;    
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+a,
+p,
+li {
+    font-size: 1rem;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body,
+#root {
+    width: 100%;
+    height: 100vh;
+}
+
+#page {
+    width: 100%;
+    height: auto;
+}
+
+#navbar {
+    width: 100%;
+    height: 10vh;
+    padding: 2.5rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #008080;
+}
+
+#navbar ul {
+    width: 70%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+#navbar ul li a,
+#navbar ul li a:link,
+#navbar ul li a:visited,
+#navbar ul li a:active {
+    color: #ffff00;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #008080;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header-section {
+    width: 70%;
+    height: 35vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #008080;
+}
+
+#total,
+#titles {
+    width: 50%;
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #008080;
+}
+
+#titles {
+    justify-content: center;
+}
+
+#titles span {
+    width: 180px;
+    height: 4px;
+    background-color: #ffff00;
+    margin: 1rem 0;
+}
+
+#titles h1 {
+    color: #ffff00;
+}
+
+#titles h4 {
+    color: #FFF;
+}
+
+#total h2 {
+    color: #FFF;
+}
+
+#total h3 {
+    color: #FFF;
+}
+
+#total {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
+
+#totals {
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d5ffe6;
+}
+
+#totals h4 {
+    color: #000;
+}
+
+#values {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FFF; 
+}
+
+.list {
+    width: 48%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.list span {
+    width: 100%;
+    text-align: left;
+}
+
+.list ul {
+    padding: 1rem 0;
+}
+
+.list ul li {
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list ul li button {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-bottom: 0.25rem;
+    border-radius: 8px;
+}
+
+.list h4 {
+    text-align: center;
+    color: #008080;
+}
+
+#form {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form h4 {
+    color: #008080;
+}
+
+#form form {
+    width: 70%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#form form input {
+    width: 25%;
+}
+
+#form form select {
+    width: 100%;
+}
+
+#form form input,
+#form form select {
+    height: auto;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#form form input[type="button"],
+#form form input[type="submit"] {
+    width: auto;
+    padding: 0.5rem 1.25rem;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+#footer h6 {
+    color: #008080;
+}
+
+#footer h6 span {
+    color: rgba(0,0,0,0.7);
+    text-transform: uppercase;
+}
+
+@media(max-width: 786px) {
+    h1 {
+        font-size: 1.5rem;
+    }    
+    h2 {
+        font-size: 1.6rem;
+    }    
+    h3 {
+        font-size: 1.3rem;
+    }    
+    h4 {
+        font-size: 1.1rem;
+    }    
+    h5 {
+        font-size: 1rem;
+    }    
+    h6 {
+        font-size: 1rem;
+    }
+    a {
+        font-size: 1rem;
+    }
+    #form form select {
+        width: 100%;
+    }
+    #navbar #navbar,
+    #navbar ul {
+        padding: 0;
+        justify-content: center!important;
+    }
+    #header-section {
+        height: auto;
+    }
+    #total,
+    #titles,
+    .list {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #form form {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #header-section,
+    #values,
+    #navbar ul {
+        width: 95%;
+    }
+    #form form input {
+        width: 100%;
+    }
+}

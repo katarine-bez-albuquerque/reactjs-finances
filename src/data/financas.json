@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "data": "08/03/2024",
+            "nome": "Salário",
+            "valor": 2256.88,
+            "tipo": "receita"
+        },
+        {
+            "id": 2,
+            "data": "24/03/2024",
+            "nome": "Freelance",
+            "valor": 4228.61,
+            "tipo": "receita"
+        },
+        {
+            "id": 3,
+            "data": "18/03/2024",
+            "nome": "Bônus",
+            "valor": 489.47,
+            "tipo": "receita"
+        },
+        {
+            "id": 4,
+            "data": "09/02/2024",
+            "nome": "Salário",
+            "valor": 2256.88,
+            "tipo": "receita"
+        },
+        {
+            "id": 5,
+            "data": "15/03/2024",
+            "nome": "Freelance",
+            "valor": 2598.57,
+            "tipo": "receita"
+        },
+        {
+            "id": 6,
+            "data": "23/03/2024",
+            "nome": "Remoto",
+            "valor": 897.45,
+            "tipo": "receita"
+        },
+        {
+            "id": 1,
+            "data": "25/03/2024",
+            "nome": "Escolar",
+            "valor": 689.57,
+            "tipo": "despesa"
+        },
+        {
+            "id": 2,
+            "data": "19/03/2024",
+            "nome": "Compras",
+            "valor": 1284.79,
+            "tipo": "despesa"
+        },
+        {
+            "id": 3,
+            "data": "02/03/2024",
+            "nome": "Mercado",
+            "valor": 578.65,
+            "tipo": "despesa"
+        },
+        {
+            "id": 4,
+            "data": "25/03/2024",
+            "nome": "Farmácia",
+            "valor": 1200.58,
+            "tipo": "despesa"
+        },
+        {
+            "id": 5,
+            "data": "24/03/2024",
+            "nome": "Hortfrut",
+            "valor": 879.65,
+            "tipo": "despesa"
+        }
+    ]
+}
